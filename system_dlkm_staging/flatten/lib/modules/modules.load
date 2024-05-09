@@ -36,7 +36,6 @@ btsdio.ko
 btbcm.ko
 btqca.ko
 8021q.ko
-cfg80211.ko
 can.ko
 can-raw.ko
 can-bcm.ko
@@ -46,10 +45,11 @@ rfcomm.ko
 hidp.ko
 l2tp_core.ko
 l2tp_ppp.ko
-mac80211.ko
 tipc.ko
 diag.ko
 rfkill.ko
+9pnet.ko
+9pnet_fd.ko
 6lowpan.ko
 nhc_dest.ko
 nhc_fragment.ko
