@@ -126545,9 +126545,9 @@ ffffffff82c2a3c6 d task_index_to_char.state_char
 ffffffff82c2a3c6 d task_index_to_char.state_char
 ffffffff82c2a3c6 d task_index_to_char.state_char
 ffffffff82c2a3c6 d task_index_to_char.state_char
-ffffffff82c4f6c4 d max_tt_usecs
-ffffffff82c79182 d f_midi_longname
-ffffffff82cd41c3 d trunc_msg
+ffffffff82c4f6fe d max_tt_usecs
+ffffffff82c791bc d f_midi_longname
+ffffffff82cd41ef d trunc_msg
 ffffffff82d3ce30 d rh_string.langids
 ffffffff82d3ce3c d pirq_ite_set.pirqmap
 ffffffff82d3ce40 d levels
