@@ -45,6 +45,7 @@
 /system/lib/modules/btqca.ko: /system/lib/modules/bluetooth.ko /system/lib/modules/rfkill.ko
 /system/lib/modules/8021q.ko:
 /system/lib/modules/vmw_vsock_virtio_transport.ko:
+/system/lib/modules/tls.ko:
 /system/lib/modules/can.ko:
 /system/lib/modules/can-raw.ko: /system/lib/modules/can.ko
 /system/lib/modules/can-bcm.ko: /system/lib/modules/can.ko
