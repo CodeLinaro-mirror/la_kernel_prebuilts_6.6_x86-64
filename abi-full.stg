@@ -64174,10 +64174,10 @@ member {
   offset: 160
 }
 member {
-  id: 0xd66ad43c
+  id: 0xd66ad027
   name: "apst_enabled"
   type_id: 0x6d7f5ff6
-  offset: 26368
+  offset: 26432
 }
 member {
   id: 0x9b1ce969
@@ -82061,10 +82061,10 @@ member {
   offset: 11488
 }
 member {
-  id: 0x11256646
+  id: 0x11256769
   name: "cntrltype"
   type_id: 0xad5cccf3
-  offset: 26880
+  offset: 26944
 }
 member {
   id: 0x3cfbfc89
@@ -89942,10 +89942,10 @@ member {
   offset: 136
 }
 member {
-  id: 0xb4af45b0
+  id: 0xb4af4561
   name: "current_path"
   type_id: 0xcdef68a9
-  offset: 10560
+  offset: 10944
 }
 member {
   id: 0x1f44ee50
@@ -92688,10 +92688,10 @@ member {
   type_id: 0xe8034002
 }
 member {
-  id: 0x0601fe57
+  id: 0x0601f236
   name: "dctype"
   type_id: 0x8cf26815
-  offset: 26912
+  offset: 26976
 }
 member {
   id: 0x0e831890
@@ -99969,16 +99969,16 @@ member {
   offset: 856
 }
 member {
-  id: 0x5b573c76
+  id: 0x5b573bdb
   name: "discard_page"
   type_id: 0x06835e9c
-  offset: 26752
+  offset: 26816
 }
 member {
-  id: 0x8622775a
+  id: 0x862275a1
   name: "discard_page_busy"
   type_id: 0x33756485
-  offset: 26816
+  offset: 26880
 }
 member {
   id: 0x9de4b55f
@@ -112757,10 +112757,10 @@ member {
   offset: 320
 }
 member {
-  id: 0x57c89863
+  id: 0x57c8994c
   name: "fault_inject"
   type_id: 0xa6729bfb
-  offset: 26880
+  offset: 26944
 }
 member {
   id: 0x57c89c5f
@@ -116907,12 +116907,6 @@ member {
   offset: 5248
 }
 member {
-  id: 0x2d5bf2b3
-  name: "flags"
-  type_id: 0x33756485
-  offset: 26624
-}
-member {
   id: 0x2d5bf2da
   name: "flags"
   type_id: 0x33756485
@@ -116947,6 +116941,18 @@ member {
   name: "flags"
   type_id: 0x33756485
   offset: 8640
+}
+member {
+  id: 0x2d5bf531
+  name: "flags"
+  type_id: 0x33756485
+  offset: 26688
+}
+member {
+  id: 0x2d5bf562
+  name: "flags"
+  type_id: 0x33756485
+  offset: 10880
 }
 member {
   id: 0x2d5bf5c3
@@ -117061,12 +117067,6 @@ member {
   name: "flags"
   type_id: 0x33756485
   offset: 1856
-}
-member {
-  id: 0x2d5bfa49
-  name: "flags"
-  type_id: 0x33756485
-  offset: 10496
 }
 member {
   id: 0x2d5bfa55
@@ -130579,28 +130579,28 @@ member {
   offset: 64
 }
 member {
-  id: 0x13e79ac5
+  id: 0x13e79c14
   name: "hmmaxd"
   type_id: 0x914dbfdc
-  offset: 26384
+  offset: 26448
 }
 member {
-  id: 0x1a3a01e3
+  id: 0x1a3a0d6c
   name: "hmmin"
   type_id: 0xc9082b19
-  offset: 26432
+  offset: 26496
 }
 member {
-  id: 0x62cb79d8
+  id: 0x62cb7432
   name: "hmminds"
   type_id: 0xc9082b19
-  offset: 26464
+  offset: 26528
 }
 member {
-  id: 0x8e4827f6
+  id: 0x8e482631
   name: "hmpre"
   type_id: 0xc9082b19
-  offset: 26400
+  offset: 26464
 }
 member {
   id: 0x37a2e18e
@@ -133670,10 +133670,10 @@ member {
   type_id: 0x677a2190
 }
 member {
-  id: 0xce39f645
+  id: 0xce39f2cb
   name: "icdoff"
   type_id: 0x914dbfdc
-  offset: 26560
+  offset: 26624
 }
 member {
   id: 0x0d14b464
@@ -141820,10 +141820,10 @@ member {
   offset: 384
 }
 member {
-  id: 0x36428dc0
+  id: 0x36428da0
   name: "ioccsz"
   type_id: 0xc9082b19
-  offset: 26496
+  offset: 26560
 }
 member {
   id: 0x3741eca7
@@ -142248,10 +142248,10 @@ member {
   offset: 96
 }
 member {
-  id: 0xa5d316db
+  id: 0xa5d3142d
   name: "iorcsz"
   type_id: 0xc9082b19
-  offset: 26528
+  offset: 26592
 }
 member {
   id: 0xa35137e4
@@ -154448,6 +154448,12 @@ member {
   offset: 128
 }
 member {
+  id: 0x2d4b3773
+  name: "lock"
+  type_id: 0xa7c362b0
+  offset: 10496
+}
+member {
   id: 0x2d4b38e1
   name: "lock"
   type_id: 0xa7c362b0
@@ -154476,12 +154482,6 @@ member {
   name: "lock"
   type_id: 0xa7c362b0
   offset: 8192
-}
-member {
-  id: 0x2d4b3b1b
-  name: "lock"
-  type_id: 0xa7c362b0
-  offset: 10112
 }
 member {
   id: 0x2d4b3b77
@@ -161728,10 +161728,10 @@ member {
   offset: 11584
 }
 member {
-  id: 0x6aba0b51
+  id: 0x6aba0b31
   name: "maxcmd"
   type_id: 0x914dbfdc
-  offset: 26576
+  offset: 26640
 }
 member {
   id: 0x6e9103d9
@@ -176916,6 +176916,12 @@ member {
   offset: 3200
 }
 member {
+  id: 0x728ebecc
+  name: "nr_active"
+  type_id: 0x74d29cf1
+  offset: 26304
+}
+member {
   id: 0x95ba92ab
   name: "nr_active_requests_shared_tags"
   type_id: 0x74d29cf1
@@ -177619,10 +177625,10 @@ member {
   offset: 68864
 }
 member {
-  id: 0x7cba3cce
+  id: 0x7cba3dc8
   name: "nr_reconnects"
   type_id: 0x6720d32f
-  offset: 26592
+  offset: 26656
 }
 member {
   id: 0xb0173df2
@@ -184089,10 +184095,10 @@ member {
   offset: 64
 }
 member {
-  id: 0x39f372b4
+  id: 0x39f377ec
   name: "opts"
   type_id: 0x29b76063
-  offset: 26688
+  offset: 26752
 }
 member {
   id: 0xf12db66c
@@ -188243,6 +188249,12 @@ member {
   name: "partition"
   type_id: 0x43bcc470
   offset: 15384
+}
+member {
+  id: 0xd2a18d2d
+  name: "partition_scan_work"
+  type_id: 0x1f3c8679
+  offset: 10112
 }
 member {
   id: 0x5669ee49
@@ -200920,10 +200932,10 @@ member {
   offset: 128
 }
 member {
-  id: 0xa67cbd51
+  id: 0xa67cb716
   name: "ps_max_latency_us"
   type_id: 0x92233392
-  offset: 26304
+  offset: 26368
 }
 member {
   id: 0x96cb103d
@@ -320298,7 +320310,7 @@ struct_union {
   kind: STRUCT
   name: "nvme_ctrl"
   definition {
-    bytesize: 3368
+    bytesize: 3376
     member_id: 0xf23cb7c3
     member_id: 0xac806705
     member_id: 0x724ccbb2
@@ -320380,24 +320392,25 @@ struct_union {
     member_id: 0xa468a598
     member_id: 0x18a7d350
     member_id: 0x0c649613
-    member_id: 0xa67cbd51
-    member_id: 0xd66ad43c
-    member_id: 0x13e79ac5
-    member_id: 0x8e4827f6
-    member_id: 0x1a3a01e3
-    member_id: 0x62cb79d8
-    member_id: 0x36428dc0
-    member_id: 0xa5d316db
-    member_id: 0xce39f645
-    member_id: 0x6aba0b51
-    member_id: 0x7cba3cce
-    member_id: 0x2d5bf2b3
-    member_id: 0x39f372b4
-    member_id: 0x5b573c76
-    member_id: 0x8622775a
-    member_id: 0x57c89863
-    member_id: 0x11256646
-    member_id: 0x0601fe57
+    member_id: 0x728ebecc
+    member_id: 0xa67cb716
+    member_id: 0xd66ad027
+    member_id: 0x13e79c14
+    member_id: 0x8e482631
+    member_id: 0x1a3a0d6c
+    member_id: 0x62cb7432
+    member_id: 0x36428da0
+    member_id: 0xa5d3142d
+    member_id: 0xce39f2cb
+    member_id: 0x6aba0b31
+    member_id: 0x7cba3dc8
+    member_id: 0x2d5bf531
+    member_id: 0x39f377ec
+    member_id: 0x5b573bdb
+    member_id: 0x862275a1
+    member_id: 0x57c8994c
+    member_id: 0x11256769
+    member_id: 0x0601f236
   }
 }
 struct_union {
@@ -320684,7 +320697,7 @@ struct_union {
   kind: STRUCT
   name: "nvme_ns_head"
   definition {
-    bytesize: 1320
+    bytesize: 1368
     member_id: 0x7c00ef52
     member_id: 0x2b889cbc
     member_id: 0x9aae571a
@@ -320701,9 +320714,10 @@ struct_union {
     member_id: 0xee4f0b09
     member_id: 0xaa806716
     member_id: 0x37483591
-    member_id: 0x2d4b3b1b
-    member_id: 0x2d5bfa49
-    member_id: 0xb4af45b0
+    member_id: 0xd2a18d2d
+    member_id: 0x2d4b3773
+    member_id: 0x2d5bf562
+    member_id: 0xb4af4561
   }
 }
 struct_union {
@@ -368052,6 +368066,10 @@ enumeration {
       name: "NVME_IOPOLICY_RR"
       value: 1
     }
+    enumerator {
+      name: "NVME_IOPOLICY_QD"
+      value: 2
+    }
   }
 }
 enumeration {
@@ -383684,6 +383702,14 @@ function {
   parameter_id: 0x3979d2c3
 }
 function {
+  id: 0x154b8f55
+  return_type_id: 0x48b5725f
+  parameter_id: 0x15a30023
+  parameter_id: 0x2170d06d
+  parameter_id: 0xf435685e
+  parameter_id: 0xf435685e
+}
+function {
   id: 0x154bf711
   return_type_id: 0x48b5725f
   parameter_id: 0x17dabdcd
@@ -388212,6 +388238,12 @@ function {
   parameter_id: 0xeeed68e6
   parameter_id: 0x6720d32f
   parameter_id: 0x6720d32f
+}
+function {
+  id: 0x197198f7
+  return_type_id: 0x48b5725f
+  parameter_id: 0x2170d06d
+  parameter_id: 0x6d7f5ff6
 }
 function {
   id: 0x19752ade
@@ -431315,6 +431347,14 @@ function {
   parameter_id: 0x4585663f
 }
 function {
+  id: 0x9bb1a574
+  return_type_id: 0x6720d32f
+  parameter_id: 0x18bd6530
+  parameter_id: 0x0483e6f8
+  parameter_id: 0x33756485
+  parameter_id: 0x33756485
+}
+function {
   id: 0x9bb1b638
   return_type_id: 0x6720d32f
   parameter_id: 0x18bd6530
@@ -436598,6 +436638,14 @@ function {
   parameter_id: 0x0603671e
   parameter_id: 0x4585663f
   parameter_id: 0x18bd6530
+}
+function {
+  id: 0x9d114ee6
+  return_type_id: 0x6720d32f
+  parameter_id: 0x0258f96e
+  parameter_id: 0x0258f96e
+  parameter_id: 0x391f15ea
+  parameter_id: 0x2dec91ef
 }
 function {
   id: 0x9d11df94
@@ -447765,6 +447813,12 @@ function {
   parameter_id: 0xd237c664
 }
 function {
+  id: 0xc653f084
+  return_type_id: 0x4585663f
+  parameter_id: 0x267a6f9d
+  parameter_id: 0x4585663f
+}
+function {
   id: 0xc685f33c
   return_type_id: 0x0ab51f0d
   parameter_id: 0x1efad3bd
@@ -450344,7 +450398,7 @@ function {
   parameter_id: 0x3399c453
 }
 function {
-  id: 0xeec14b83
+  id: 0xeec14b80
   return_type_id: 0x6d7f5ff6
   parameter_id: 0x4585663f
   parameter_id: 0x4585663f
@@ -450352,10 +450406,11 @@ function {
   parameter_id: 0xc9082b19
   parameter_id: 0x6d7f5ff6
   parameter_id: 0xaedb15fc
+  parameter_id: 0x3bcd0c02
   parameter_id: 0x35f8cea5
 }
 function {
-  id: 0xeec353a5
+  id: 0xeec353a6
   return_type_id: 0x6d7f5ff6
   parameter_id: 0x4585663f
   parameter_id: 0x4585663f
@@ -450363,6 +450418,7 @@ function {
   parameter_id: 0x4585663f
   parameter_id: 0xc9082b19
   parameter_id: 0x6d7f5ff6
+  parameter_id: 0x3bcd0c02
   parameter_id: 0x35f8cea5
 }
 function {
@@ -452993,6 +453049,12 @@ function {
   id: 0xfbcc9b0c
   return_type_id: 0x6d7f5ff6
   parameter_id: 0x15a30023
+}
+function {
+  id: 0xfbcf3a74
+  return_type_id: 0x6d7f5ff6
+  parameter_id: 0x1479c6e7
+  parameter_id: 0x1d44326e
 }
 function {
   id: 0xfbfd6476
@@ -456593,6 +456655,15 @@ elf_symbol {
   crc: 0xdeaf80b1
   type_id: 0x69e3fc22
   full_name: "__SCK__tp_func_android_vh_clear_rwsem_writer_owned"
+}
+elf_symbol {
+  id: 0xdd56209f
+  name: "__SCK__tp_func_android_vh_cma_alloc_fail"
+  is_defined: true
+  symbol_type: OBJECT
+  crc: 0x273b9822
+  type_id: 0x69e3fc22
+  full_name: "__SCK__tp_func_android_vh_cma_alloc_fail"
 }
 elf_symbol {
   id: 0x45eb3ad2
@@ -463583,6 +463654,13 @@ elf_symbol {
   is_defined: true
   symbol_type: FUNCTION
   crc: 0xde2d2ed7
+}
+elf_symbol {
+  id: 0x076577d8
+  name: "__SCT__tp_func_android_vh_cma_alloc_fail"
+  is_defined: true
+  symbol_type: FUNCTION
+  crc: 0x31d9bfe2
 }
 elf_symbol {
   id: 0x0f8cfc1e
@@ -471885,7 +471963,7 @@ elf_symbol {
   name: "__nvme_check_ready"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x0ce4af6c
+  crc: 0x31c717f3
   type_id: 0xf177e34d
   full_name: "__nvme_check_ready"
 }
@@ -475974,6 +476052,15 @@ elf_symbol {
   crc: 0xf8b0514c
   type_id: 0x9bad4369
   full_name: "__traceiter_android_vh_clear_rwsem_writer_owned"
+}
+elf_symbol {
+  id: 0xa9ea0208
+  name: "__traceiter_android_vh_cma_alloc_fail"
+  is_defined: true
+  symbol_type: FUNCTION
+  crc: 0xc277dca1
+  type_id: 0x9bb1a574
+  full_name: "__traceiter_android_vh_cma_alloc_fail"
 }
 elf_symbol {
   id: 0x9cbc7813
@@ -483444,6 +483531,15 @@ elf_symbol {
   crc: 0xbe3f94b7
   type_id: 0x18ccbd2c
   full_name: "__tracepoint_android_vh_clear_rwsem_writer_owned"
+}
+elf_symbol {
+  id: 0xdb2e754e
+  name: "__tracepoint_android_vh_cma_alloc_fail"
+  is_defined: true
+  symbol_type: OBJECT
+  crc: 0xfcc20cd0
+  type_id: 0x18ccbd2c
+  full_name: "__tracepoint_android_vh_cma_alloc_fail"
 }
 elf_symbol {
   id: 0xaf598d05
@@ -494904,6 +495000,15 @@ elf_symbol {
   full_name: "bio_add_folio"
 }
 elf_symbol {
+  id: 0x2d9289e3
+  name: "bio_add_folio_nofail"
+  is_defined: true
+  symbol_type: FUNCTION
+  crc: 0xe3b181fe
+  type_id: 0x154b8f55
+  full_name: "bio_add_folio_nofail"
+}
+elf_symbol {
   id: 0x49201db3
   name: "bio_add_page"
   is_defined: true
@@ -498046,6 +498151,15 @@ elf_symbol {
   full_name: "bt_sock_link"
 }
 elf_symbol {
+  id: 0x25d33c99
+  name: "bt_sock_linked"
+  is_defined: true
+  symbol_type: FUNCTION
+  crc: 0x929ff26d
+  type_id: 0xfbcf3a74
+  full_name: "bt_sock_linked"
+}
+elf_symbol {
   id: 0xb230dae9
   name: "bt_sock_poll"
   is_defined: true
@@ -500794,6 +500908,15 @@ elf_symbol {
   full_name: "cppc_get_transition_latency"
 }
 elf_symbol {
+  id: 0x5c825a76
+  name: "cppc_khz_to_perf"
+  is_defined: true
+  symbol_type: FUNCTION
+  crc: 0x63d62271
+  type_id: 0xc653f084
+  full_name: "cppc_khz_to_perf"
+}
+elf_symbol {
   id: 0x7cc28967
   name: "cppc_perf_ctrs_in_pcc"
   is_defined: true
@@ -500801,6 +500924,15 @@ elf_symbol {
   crc: 0x8b4149e4
   type_id: 0xfea45b04
   full_name: "cppc_perf_ctrs_in_pcc"
+}
+elf_symbol {
+  id: 0x9cce6e5f
+  name: "cppc_perf_to_khz"
+  is_defined: true
+  symbol_type: FUNCTION
+  crc: 0xdc24b059
+  type_id: 0xc653f084
+  full_name: "cppc_perf_to_khz"
 }
 elf_symbol {
   id: 0xbaf9cc96
@@ -507330,6 +507462,15 @@ elf_symbol {
   crc: 0x4540b389
   type_id: 0x9d7f5bac
   full_name: "device_for_each_child_reverse"
+}
+elf_symbol {
+  id: 0x0ae71de1
+  name: "device_for_each_child_reverse_from"
+  is_defined: true
+  symbol_type: FUNCTION
+  crc: 0xa1dd8da7
+  type_id: 0x9d114ee6
+  full_name: "device_for_each_child_reverse_from"
 }
 elf_symbol {
   id: 0x0576df29
@@ -524732,6 +524873,15 @@ elf_symbol {
   crc: 0x51f3aaba
   type_id: 0x18c46588
   full_name: "folio_end_private_2"
+}
+elf_symbol {
+  id: 0x19eb81d3
+  name: "folio_end_read"
+  is_defined: true
+  symbol_type: FUNCTION
+  crc: 0xdd2eafbe
+  type_id: 0x197198f7
+  full_name: "folio_end_read"
 }
 elf_symbol {
   id: 0xa1c5bd8d
@@ -558332,7 +558482,7 @@ elf_symbol {
   name: "nvme_alloc_admin_tag_set"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xb9946b9b
+  crc: 0xdc9e74e5
   type_id: 0x928dc9d1
   full_name: "nvme_alloc_admin_tag_set"
 }
@@ -558341,7 +558491,7 @@ elf_symbol {
   name: "nvme_alloc_io_tag_set"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x34c53851
+  crc: 0xa376cea2
   type_id: 0x928dd8b0
   full_name: "nvme_alloc_io_tag_set"
 }
@@ -558350,7 +558500,7 @@ elf_symbol {
   name: "nvme_cancel_admin_tagset"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x3af0f51c
+  crc: 0x06dce855
   type_id: 0x1f2abe0b
   full_name: "nvme_cancel_admin_tagset"
 }
@@ -558368,7 +558518,7 @@ elf_symbol {
   name: "nvme_cancel_tagset"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xc81781df
+  crc: 0xc0373adc
   type_id: 0x1f2abe0b
   full_name: "nvme_cancel_tagset"
 }
@@ -558377,7 +558527,7 @@ elf_symbol {
   name: "nvme_change_ctrl_state"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xd273209f
+  crc: 0xb7c61879
   type_id: 0xf3ea5ebe
   full_name: "nvme_change_ctrl_state"
 }
@@ -558395,7 +558545,7 @@ elf_symbol {
   name: "nvme_command_effects"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x8ad06eab
+  crc: 0xa95cf1d3
   namespace: "NVME_TARGET_PASSTHRU"
   type_id: 0x4addfd83
   full_name: "nvme_command_effects"
@@ -558405,7 +558555,7 @@ elf_symbol {
   name: "nvme_complete_async_event"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x886f52f9
+  crc: 0xdb2bbe59
   type_id: 0x1d4ea877
   full_name: "nvme_complete_async_event"
 }
@@ -558432,7 +558582,7 @@ elf_symbol {
   name: "nvme_ctrl_from_file"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xae3867d2
+  crc: 0xabe36c52
   namespace: "NVME_TARGET_PASSTHRU"
   type_id: 0xe3b493d5
   full_name: "nvme_ctrl_from_file"
@@ -558442,7 +558592,7 @@ elf_symbol {
   name: "nvme_delete_ctrl"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x1964acac
+  crc: 0x7d9da31d
   type_id: 0x92320cb7
   full_name: "nvme_delete_ctrl"
 }
@@ -558469,7 +558619,7 @@ elf_symbol {
   name: "nvme_disable_ctrl"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x7527b256
+  crc: 0xf8441daa
   type_id: 0x9387f1c8
   full_name: "nvme_disable_ctrl"
 }
@@ -558478,7 +558628,7 @@ elf_symbol {
   name: "nvme_enable_ctrl"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x5f7f3d07
+  crc: 0x46934c84
   type_id: 0x92320cb7
   full_name: "nvme_enable_ctrl"
 }
@@ -558497,7 +558647,7 @@ elf_symbol {
   name: "nvme_fail_nonready_command"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x2a4924eb
+  crc: 0x660b6d12
   type_id: 0x45bda032
   full_name: "nvme_fail_nonready_command"
 }
@@ -558506,7 +558656,7 @@ elf_symbol {
   name: "nvme_find_get_ns"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xb5201492
+  crc: 0x4be531e3
   namespace: "NVME_TARGET_PASSTHRU"
   type_id: 0xd09f0c6b
   full_name: "nvme_find_get_ns"
@@ -558516,7 +558666,7 @@ elf_symbol {
   name: "nvme_get_features"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xa4c12add
+  crc: 0xd2989b6e
   type_id: 0x9335276d
   full_name: "nvme_get_features"
 }
@@ -558534,7 +558684,7 @@ elf_symbol {
   name: "nvme_init_ctrl"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xd91c358c
+  crc: 0x29e26f22
   type_id: 0x92340f70
   full_name: "nvme_init_ctrl"
 }
@@ -558543,7 +558693,7 @@ elf_symbol {
   name: "nvme_init_ctrl_finish"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x32e8be73
+  crc: 0x9da3e7e9
   type_id: 0x9387f1c8
   full_name: "nvme_init_ctrl_finish"
 }
@@ -558570,7 +558720,7 @@ elf_symbol {
   name: "nvme_mark_namespaces_dead"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xb8cd2fe7
+  crc: 0x19c6db55
   type_id: 0x1f2abe0b
   full_name: "nvme_mark_namespaces_dead"
 }
@@ -558588,7 +558738,7 @@ elf_symbol {
   name: "nvme_passthru_end"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x818375f1
+  crc: 0xd195f0c1
   namespace: "NVME_TARGET_PASSTHRU"
   type_id: 0x1f855930
   full_name: "nvme_passthru_end"
@@ -558598,7 +558748,7 @@ elf_symbol {
   name: "nvme_passthru_start"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xe91e4846
+  crc: 0xa8be0342
   namespace: "NVME_TARGET_PASSTHRU"
   type_id: 0x4addfd83
   full_name: "nvme_passthru_start"
@@ -558608,7 +558758,7 @@ elf_symbol {
   name: "nvme_put_ns"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x973681c2
+  crc: 0xa529aebc
   namespace: "NVME_TARGET_PASSTHRU"
   type_id: 0x194eb7ca
   full_name: "nvme_put_ns"
@@ -558618,7 +558768,7 @@ elf_symbol {
   name: "nvme_quiesce_admin_queue"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x1e2e6df0
+  crc: 0x780a0102
   type_id: 0x1f2abe0b
   full_name: "nvme_quiesce_admin_queue"
 }
@@ -558627,7 +558777,7 @@ elf_symbol {
   name: "nvme_quiesce_io_queues"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x010d3ea1
+  crc: 0x1f74e494
   type_id: 0x1f2abe0b
   full_name: "nvme_quiesce_io_queues"
 }
@@ -558636,7 +558786,7 @@ elf_symbol {
   name: "nvme_remove_admin_tag_set"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xaedbd669
+  crc: 0x8f3b8321
   type_id: 0x1f2abe0b
   full_name: "nvme_remove_admin_tag_set"
 }
@@ -558645,7 +558795,7 @@ elf_symbol {
   name: "nvme_remove_io_tag_set"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x15fd5ab5
+  crc: 0x6ca13808
   type_id: 0x1f2abe0b
   full_name: "nvme_remove_io_tag_set"
 }
@@ -558654,7 +558804,7 @@ elf_symbol {
   name: "nvme_remove_namespaces"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x0aa1e3b0
+  crc: 0x3eba91a2
   type_id: 0x1f2abe0b
   full_name: "nvme_remove_namespaces"
 }
@@ -558663,7 +558813,7 @@ elf_symbol {
   name: "nvme_reset_ctrl"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xe527a19b
+  crc: 0xe17e6207
   type_id: 0x92320cb7
   full_name: "nvme_reset_ctrl"
 }
@@ -558681,7 +558831,7 @@ elf_symbol {
   name: "nvme_set_features"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xf516da66
+  crc: 0x5608e3b3
   type_id: 0x9335276d
   full_name: "nvme_set_features"
 }
@@ -558690,7 +558840,7 @@ elf_symbol {
   name: "nvme_set_queue_count"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x1a340227
+  crc: 0x43997a49
   type_id: 0x927f6c82
   full_name: "nvme_set_queue_count"
 }
@@ -558699,7 +558849,7 @@ elf_symbol {
   name: "nvme_setup_cmd"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xa9863c23
+  crc: 0x1b072839
   type_id: 0x43d9a9f3
   full_name: "nvme_setup_cmd"
 }
@@ -558708,7 +558858,7 @@ elf_symbol {
   name: "nvme_start_ctrl"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x1e3691c2
+  crc: 0x1d326488
   type_id: 0x1f2abe0b
   full_name: "nvme_start_ctrl"
 }
@@ -558717,7 +558867,7 @@ elf_symbol {
   name: "nvme_start_freeze"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x8e35adf2
+  crc: 0xffeb5d2f
   type_id: 0x1f2abe0b
   full_name: "nvme_start_freeze"
 }
@@ -558726,7 +558876,7 @@ elf_symbol {
   name: "nvme_stop_ctrl"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x2a2469ac
+  crc: 0x1d225f28
   type_id: 0x1f2abe0b
   full_name: "nvme_stop_ctrl"
 }
@@ -558735,7 +558885,7 @@ elf_symbol {
   name: "nvme_stop_keep_alive"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xbedfe444
+  crc: 0x48779565
   type_id: 0x1f2abe0b
   full_name: "nvme_stop_keep_alive"
 }
@@ -558753,7 +558903,7 @@ elf_symbol {
   name: "nvme_sync_io_queues"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xf3960ec3
+  crc: 0xf338e4f2
   type_id: 0x1f2abe0b
   full_name: "nvme_sync_io_queues"
 }
@@ -558762,7 +558912,7 @@ elf_symbol {
   name: "nvme_sync_queues"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x061fa24a
+  crc: 0x1e9a186e
   type_id: 0x1f2abe0b
   full_name: "nvme_sync_queues"
 }
@@ -558771,7 +558921,7 @@ elf_symbol {
   name: "nvme_try_sched_reset"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xad375e6b
+  crc: 0x45e01f6a
   type_id: 0x92320cb7
   full_name: "nvme_try_sched_reset"
 }
@@ -558780,7 +558930,7 @@ elf_symbol {
   name: "nvme_unfreeze"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x2b77ff53
+  crc: 0x3e71e77f
   type_id: 0x1f2abe0b
   full_name: "nvme_unfreeze"
 }
@@ -558789,7 +558939,7 @@ elf_symbol {
   name: "nvme_uninit_ctrl"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x3f479525
+  crc: 0xec993c0f
   type_id: 0x1f2abe0b
   full_name: "nvme_uninit_ctrl"
 }
@@ -558798,7 +558948,7 @@ elf_symbol {
   name: "nvme_unquiesce_admin_queue"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x2e6d4fa9
+  crc: 0x962f7997
   type_id: 0x1f2abe0b
   full_name: "nvme_unquiesce_admin_queue"
 }
@@ -558807,7 +558957,7 @@ elf_symbol {
   name: "nvme_unquiesce_io_queues"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x659b8a74
+  crc: 0xb297742e
   type_id: 0x1f2abe0b
   full_name: "nvme_unquiesce_io_queues"
 }
@@ -558816,7 +558966,7 @@ elf_symbol {
   name: "nvme_wait_freeze"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x5dd5a1d8
+  crc: 0xa000d18d
   type_id: 0x1f2abe0b
   full_name: "nvme_wait_freeze"
 }
@@ -558825,7 +558975,7 @@ elf_symbol {
   name: "nvme_wait_freeze_timeout"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x5f6ce654
+  crc: 0x5ed61fd1
   type_id: 0x91c234c1
   full_name: "nvme_wait_freeze_timeout"
 }
@@ -558834,7 +558984,7 @@ elf_symbol {
   name: "nvme_wait_reset"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xf6e4ef0b
+  crc: 0x170e9f0b
   type_id: 0xf116b49c
   full_name: "nvme_wait_reset"
 }
@@ -603552,8 +603702,8 @@ elf_symbol {
   name: "v4l2_detect_cvt"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0xa97e00eb
-  type_id: 0xeec353a5
+  crc: 0xd3ec68f3
+  type_id: 0xeec353a6
   full_name: "v4l2_detect_cvt"
 }
 elf_symbol {
@@ -603561,8 +603711,8 @@ elf_symbol {
   name: "v4l2_detect_gtf"
   is_defined: true
   symbol_type: FUNCTION
-  crc: 0x01612c0b
-  type_id: 0xeec14b83
+  crc: 0xaca8a3ea
+  type_id: 0xeec14b80
   full_name: "v4l2_detect_gtf"
 }
 elf_symbol {
@@ -613570,6 +613720,7 @@ interface {
   symbol_id: 0x008bafca
   symbol_id: 0x8b397e53
   symbol_id: 0x8744c4eb
+  symbol_id: 0xdd56209f
   symbol_id: 0x45eb3ad2
   symbol_id: 0x17b93523
   symbol_id: 0x595cbbfc
@@ -614404,6 +614555,7 @@ interface {
   symbol_id: 0xcb57d71a
   symbol_id: 0x17a155b5
   symbol_id: 0x170ecb6a
+  symbol_id: 0x076577d8
   symbol_id: 0x0f8cfc1e
   symbol_id: 0x9b0b3024
   symbol_id: 0x6fb48cc2
@@ -615911,6 +616063,7 @@ interface {
   symbol_id: 0xef7737f8
   symbol_id: 0xaed0a325
   symbol_id: 0xc308efa9
+  symbol_id: 0xa9ea0208
   symbol_id: 0x9cbc7813
   symbol_id: 0x478c1248
   symbol_id: 0x9615636c
@@ -616741,6 +616894,7 @@ interface {
   symbol_id: 0xca10f06e
   symbol_id: 0xbbfbc9db
   symbol_id: 0x36fc8313
+  symbol_id: 0xdb2e754e
   symbol_id: 0xaf598d05
   symbol_id: 0x0340e826
   symbol_id: 0x948bb626
@@ -618014,6 +618168,7 @@ interface {
   symbol_id: 0x977cc973
   symbol_id: 0x154309df
   symbol_id: 0xc5f7c1b2
+  symbol_id: 0x2d9289e3
   symbol_id: 0x49201db3
   symbol_id: 0x5270841d
   symbol_id: 0x5d111622
@@ -618363,6 +618518,7 @@ interface {
   symbol_id: 0x10997d7c
   symbol_id: 0x7b64a27a
   symbol_id: 0xe7a5b986
+  symbol_id: 0x25d33c99
   symbol_id: 0xb230dae9
   symbol_id: 0x348f5f0f
   symbol_id: 0x51bc5c83
@@ -618669,7 +618825,9 @@ interface {
   symbol_id: 0x46061653
   symbol_id: 0x9e7fe49f
   symbol_id: 0xc120f52e
+  symbol_id: 0x5c825a76
   symbol_id: 0x7cc28967
+  symbol_id: 0x9cce6e5f
   symbol_id: 0xbaf9cc96
   symbol_id: 0x03a22dc0
   symbol_id: 0x33e4b968
@@ -619394,6 +619552,7 @@ interface {
   symbol_id: 0x01805ccc
   symbol_id: 0xd81e7ab3
   symbol_id: 0x3b013a69
+  symbol_id: 0x0ae71de1
   symbol_id: 0x0576df29
   symbol_id: 0x7fca902b
   symbol_id: 0x92a490c5
@@ -621324,6 +621483,7 @@ interface {
   symbol_id: 0xab55569c
   symbol_id: 0xf6f2d46e
   symbol_id: 0xf83588d6
+  symbol_id: 0x19eb81d3
   symbol_id: 0xa1c5bd8d
   symbol_id: 0xf730a5b2
   symbol_id: 0x159a69a3
